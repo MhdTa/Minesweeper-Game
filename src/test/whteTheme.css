@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/10/2018, 03:34:27 م
+    Author     : Mohamed Taha
+*/
+
+.root
+{
+    -fx-background-color: #ecf0f1;
+    -fx-text-background-color:#344952;
+
+}
+.text-input
+{
+   -fx-background-color: #95a5a6; 
+  //-fx-prompt-text-fill:#ecf0f1;
+  -fx-text-fill:#ecf0f1;
+}
+.button
+{
+ 
+    -fx-min-width:55px;
+    -fx-min-height:55px;
+     -fx-padding:10px 20px;
+     -fx-text-fill:#344952;
+	-fx-background-color: #bdc3c7;
+        
+         -fx-font-size: 17px;
+       -fx-font-weight: 900;
+       -fx-font-style: italic;
+       -fx-background-radius:20px;
+       
+}
+.button:hover
+{
+  -fx-effect:dropshadow(one-pass-box,black,8,0.0,2,0);
+          
+}
+.menu-bar
+{
+      -fx-background-color: #b5b9bc;
+      -fx-padding:5px;
+    
+}
+
+.menu .label
+{
+     -fx-text-fill:#344952;
+     -fx-font-size: 14px;
+       -fx-font-style: italic;
+     
+}
+.menu .menu-item
+{-fx-background-radius:20%;
+ -fx-background-color:#bdc3c7;   
+}
+.menu .menu-item:hover
+{
+ -fx-background-color:#95a5a6;   
+}
+
+
+.context-menu
+{
+   -fx-background-color:#bdc3c7;   
+}
+.scoreBoard
+{
+    -fx-background-color:#b5b9bc;
+        
+    -fx-padding: 10px;
+}
+.score
+{
+  -fx-font-weight: bold; 
+  -fx-font-size: 15px;
+  -fx-font-style: italic;
+  
+}

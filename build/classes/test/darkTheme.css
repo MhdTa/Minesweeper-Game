@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/10/2018, 03:34:27 م
+    Author     : Mohamed Taha
+*/
+
+.root
+{
+    -fx-background-color: #364849;
+    -fx-text-background-color:#dad6da;
+
+}
+.text-input
+{
+   -fx-background-color: #4b5557; 
+  -fx-prompt-text-fill:#dad6da;
+  -fx-text-fill:#dad6da;
+}
+.button 
+{
+ 
+    -fx-min-width:55px;
+    -fx-min-height:55px;
+     -fx-padding:10px 20px;
+    -fx-text-fill:#dad6da;
+	-fx-background-color: #748082;
+        -fx-font-size: 17px;
+       -fx-font-weight: 900;
+  
+       -fx-font-style: italic;
+       -fx-background-radius:20px;
+       // b[ii][jj].setStyle("-fx-background-color:#9b59b6;");
+       // b[ii][jj].setStyle("-fx-background-color:#3498db"); 
+}
+.button:hover
+{
+  -fx-effect:dropshadow(one-pass-box,#ddd,8,0.0,2,0);
+          
+}
+
+.menu-bar
+{
+      -fx-background-color:#748082;
+      -fx-padding:5px;
+    
+}
+
+.menu .label
+{
+     -fx-text-fill:#dad6da; 
+     -fx-font-size: 14px;
+       -fx-font-style: italic;
+     
+}
+.menu .menu-item
+{-fx-background-radius:20%;
+ -fx-background-color:#748082;   
+}
+.menu .menu-item:hover
+{
+ -fx-background-color:#4b5557;   
+}
+
+
+.context-menu
+{
+   -fx-background-color:#748082;   
+}
+
+.scoreBoard 
+{
+    -fx-background-color:#748082;
+    
+
+    -fx-padding: 10px;
+  
+}
+.score
+{
+  -fx-font-weight: bold; 
+  -fx-font-size: 15px;
+  -fx-font-style: italic;
+  
+}
